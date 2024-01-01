@@ -30,9 +30,10 @@ const Landing = () => {
         ease: "linear",
       });
 
-      tl.from(".landing__socials", {
+      tl.from(".fade", {
         opacity: 0,
         duration: 1,
+        delay: 0.3,
       });
     },
     { scope: app }
@@ -47,14 +48,21 @@ const Landing = () => {
         <h2 className="landing__title--main">Front-End</h2>
         <h3 className="landing__title">Développeur</h3>
 
-        <div className="landing__socials">
-          <Link to={"https://www.linkedin.com/in/cedricfriscia/"}>
+        <div className="landing__socials fade">
+          <Link
+            to={"https://www.linkedin.com/in/cedricfriscia/"}
+            className="link"
+          >
             <GrLinkedin />
           </Link>
-          <Link to={"https://github.com/CedricFriscia"}>
+          <Link to={"https://github.com/CedricFriscia"} className="link">
             <FaGithub />
           </Link>
         </div>
+        <p className="landing__introduction fade">
+          Bonjour, je m'appelle Cédric, j'ai 25 ans et je suis un développeur
+          passionné par le développement web.
+        </p>
       </main>
     </div>
   );
