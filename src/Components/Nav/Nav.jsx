@@ -2,9 +2,7 @@ import { Link } from "react-router-dom";
 
 // Icons import
 import { IconContext } from "react-icons";
-
 import { RxHamburgerMenu } from "react-icons/rx";
-
 import { AiOutlineClose } from "react-icons/ai";
 
 import "./styles.scss";

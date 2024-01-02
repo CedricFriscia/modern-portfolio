@@ -1,0 +1,41 @@
+.card {
+  &__container {
+    width: 93%;
+    height: fit-content;
+
+    border-radius: 14px;
+
+    background-color: rgb(226, 226, 226);
+    margin: auto;
+
+    padding: 2rem;
+  }
+
+  &__title {
+    padding-bottom: 1rem;
+    text-transform: uppercase;
+    color: #fca311;
+  }
+
+  &__presentation {
+    padding-bottom: 1rem;
+  }
+
+  &__skills {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
+  img {
+    height: 60px;
+    width: 60px;
+  }
+
+  img:nth-child(3) {
+    height: 50px;
+    width: 50px;
+  }
+}

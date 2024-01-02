@@ -1,5 +1,5 @@
 .landing {
-  height: 100vh;
+  height: 200vh;
   width: 100vw;
 
   background-color: #1b1b1b;
@@ -12,7 +12,7 @@
   &__title--main {
     font-size: 4.5rem;
     padding-left: 1rem;
-    color: #fff;
+    color: #fca311;
   }
 
   &__title {
@@ -32,7 +32,7 @@
   }
 
   &__socials .link {
-    color: #fca311;
+    color: #fff;
   }
 
   &__introduction {

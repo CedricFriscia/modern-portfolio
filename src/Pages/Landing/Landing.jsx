@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 import Nav from "../../Components/Nav/Nav";
+import Card from "../../Components/Card/Card";
 
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
@@ -28,11 +29,12 @@ const Landing = () => {
         x: -400,
         duration: 0.5,
         ease: "linear",
+        stagger: 0.3,
       });
 
       tl.from(".fade", {
         opacity: 0,
-        duration: 1,
+        duration: 0.5,
         delay: 0.3,
       });
     },
@@ -63,6 +65,10 @@ const Landing = () => {
           Bonjour, je m'appelle Cédric, j'ai 25 ans et je suis un développeur
           passionné par le développement web.
         </p>
+
+        <section className="landing__parcour">
+          <Card />
+        </section>
       </main>
     </div>
   );
