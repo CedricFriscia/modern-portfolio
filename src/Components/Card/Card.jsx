@@ -36,10 +36,9 @@ const Card = () => {
       <div className="card__container">
         <h2 className="card__title">Parcour</h2>
         <p className="card__presentation">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, cum
-          rerum. Quisquam dolores, est eum quibusdam omnis perferendis iusto,
-          ratione repellendus dolorum obcaecati consequuntur soluta consectetur
-          laudantium expedita neque consequatur.
+          Formation Fullstack BAC +2 : j'ai acquis de solides connaissances en
+          JavaScript, Node.js, CSS et le framework React. Je maîtrise également
+          l'utilisation d'animations avec GSAP.
         </p>
         <h2 className="card__title">Compétence</h2>
         <div className="card__skills">

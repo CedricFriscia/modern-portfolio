@@ -54,10 +54,15 @@ const Landing = () => {
           <Link
             to={"https://www.linkedin.com/in/cedricfriscia/"}
             className="link"
+            target={"_blank"}
           >
             <GrLinkedin />
           </Link>
-          <Link to={"https://github.com/CedricFriscia"} className="link">
+          <Link
+            to={"https://github.com/CedricFriscia"}
+            className="link"
+            target={"_blank"}
+          >
             <FaGithub />
           </Link>
         </div>

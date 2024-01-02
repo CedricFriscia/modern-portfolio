@@ -2,7 +2,7 @@
   height: 200vh;
   width: 100vw;
 
-  background-color: #1b1b1b;
+  background-color: #f3f3f4;
 
   &__content {
     position: absolute;
@@ -12,13 +12,13 @@
   &__title--main {
     font-size: 4.5rem;
     padding-left: 1rem;
-    color: #eee0cb;
+    color: #171614;
   }
 
   &__title {
     font-size: 2.5rem;
     padding-left: 1rem;
-    color: #fff;
+    color: #34312d;
     position: relative;
     bottom: 15px;
   }
@@ -28,17 +28,17 @@
     gap: 1rem;
     font-size: 2.5rem;
     padding: 1rem;
-    color: #fff;
+    color: #34312d;
   }
 
   &__socials .link {
-    color: #fff;
+    color: #34312d;
   }
 
   &__introduction {
     width: 90%;
     font-size: 1rem;
     padding: 2rem 1rem;
-    color: #fff;
+    color: #34312d;
   }
 }
