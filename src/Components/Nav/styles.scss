@@ -21,56 +21,12 @@
 
   &__logo {
     display: flex;
+    margin: auto;
+
     align-items: center;
     color: #fff;
     justify-self: start;
     cursor: pointer;
-  }
-
-  &__list {
-    display: flex;
-    color: #fff;
-    gap: 2em;
-    cursor: pointer;
-  }
-
-  &__home {
-    display: flex;
-    align-items: center;
-    gap: 0.5em;
-    margin: 10px;
-    padding: 8px;
-    border-radius: 13px;
-  }
-
-  &__candidat {
-    display: flex;
-    align-items: center;
-    gap: 0.5em;
-    margin: 10px;
-    padding: 8px;
-    border-radius: 13px;
-  }
-
-  &__contact {
-    display: flex;
-    align-items: center;
-    gap: 0.5em;
-
-    margin: 10px;
-    padding: 8px;
-    border-radius: 13px;
-  }
-
-  &__link {
-    text-decoration: none;
-    list-style: none;
-    color: rgb(7, 6, 6);
-    text-transform: uppercase;
-  }
-
-  &__icons {
-    display: none;
   }
 }
 

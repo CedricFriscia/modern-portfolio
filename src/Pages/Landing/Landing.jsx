@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 
 import Nav from "../../Components/Nav/Nav";
 import Card from "../../Components/Card/Card";
+import Project from "../../Components/Project/Project";
 
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
@@ -71,8 +72,11 @@ const Landing = () => {
           passionné par le développement web.
         </p>
 
-        <section className="landing__parcour">
+        <section className="landing__card">
           <Card />
+        </section>
+        <section className="landing__projects">
+          <Project />
         </section>
       </main>
     </div>
