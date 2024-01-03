@@ -22,6 +22,7 @@ const Card = () => {
         ],
         {
           opacity: 0,
+          ease: "linear",
           duration: 1,
           delay: 1.8,
         }
@@ -39,7 +40,7 @@ const Card = () => {
           JavaScript, Node.js, CSS et le framework React. Je maîtrise également
           l'utilisation d'animations avec GSAP.
         </p>
-        <h2 className="card__title">Compétence</h2>
+        <h2 className="card__title">Compétences</h2>
         <div className="card__skills">
           <img
             src="src/assets/icons/kisspng-responsive-web-design-html-world-wide-web-consorti-5ae60d381c26f6.3859365115250261041153.png"

@@ -4,6 +4,7 @@
     height: fit-content;
 
     border-radius: 14px;
+    border: 2px solid #0f0f0f;
 
     background-color: #d9c5b2;
     margin: auto;
@@ -37,5 +38,21 @@
   img:nth-child(3) {
     height: 50px;
     width: 50px;
+  }
+}
+
+@media screen and (min-width: 850px) {
+  .card {
+    &__container {
+      width: 80%;
+    }
+
+    &__presentation {
+      font-size: 1.3rem;
+    }
+    &__skills {
+      display: flex;
+      justify-content: flex-start;
+    }
   }
 }

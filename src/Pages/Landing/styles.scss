@@ -1,5 +1,5 @@
 .landing {
-  height: 200vh;
+  height: 100vh;
   width: 100vw;
 
   background-color: #f3f3f4;
@@ -37,8 +37,32 @@
 
   &__introduction {
     width: 90%;
-    font-size: 1rem;
+    font-size: 1.2rem;
     padding: 2rem 1rem;
     color: #34312d;
+  }
+}
+
+@media screen and (min-width: 850px) {
+  .landing {
+    max-width: 100%;
+    &__title--main {
+      font-size: 8rem;
+      padding-left: 2rem;
+    }
+    &__title {
+      font-size: 4rem;
+      padding-left: 2rem;
+    }
+
+    &__socials {
+      padding-left: 2rem;
+    }
+
+    &__introduction {
+      font-size: 1.5rem;
+      width: 60%;
+      padding-left: 2rem;
+    }
   }
 }

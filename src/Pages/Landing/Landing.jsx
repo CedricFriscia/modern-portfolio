@@ -21,13 +21,13 @@ const Landing = () => {
   useGSAP(
     () => {
       tl.from(".landing__navbar", {
-        y: -200,
+        y: -300,
         duration: 0.5,
         ease: "linear",
       });
 
       tl.from([".landing__title--main", ".landing__title"], {
-        x: -400,
+        x: -600,
         duration: 0.5,
         ease: "linear",
         stagger: 0.3,
