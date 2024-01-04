@@ -11,33 +11,12 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 1rem;
-
-    .defi {
-      background-image: url("project/Capture d'écran 2024-01-02 215306.png");
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-    }
-
-    .nissa {
-      background-image: url("project/Capture d'écran 2024-01-02 215758.png");
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-    }
-
-    .party {
-      background-image: url("project/party.png");
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-    }
   }
 
   &__card {
-    width: 350px;
+    width: 95%;
     height: 250px;
-    background-color: aqua;
+    margin: auto;
     border-radius: 14px;
     border: 1px solid black;
     cursor: pointer;
