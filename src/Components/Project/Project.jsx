@@ -49,21 +49,26 @@ const Project = () => {
     <div ref={app} className="project">
       <h1 className="project__title">PROJETS</h1>
       <section className="project__container">
-        <Link to={""}>
+        <Link to={"https://defie-jeune.vercel.app/"} target={"_blank"}>
           <img
             className="project__card"
             src="project/Capture d'écran 2024-01-03 091948.png"
             alt=""
           />
         </Link>
-        <Link to={""}>
+        <Link to={"https://mieu-nissa.vercel.app/"} target={"_blank"}>
           <img
             className="project__card"
             src="project/Capture d'écran 2024-01-02 215758.png"
             alt=""
           />
         </Link>
-        <Link to={""}>
+        <Link
+          to={
+            "https://www.youtube.com/watch?v=5RN9SH2qkLE&ab_channel=CedricFRISCIA"
+          }
+          target={"_blank"}
+        >
           <img className="project__card" src="project/party.png" alt="" />
         </Link>
       </section>
