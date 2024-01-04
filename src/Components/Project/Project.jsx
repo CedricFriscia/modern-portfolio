@@ -17,7 +17,7 @@ const Project = () => {
   useGSAP(
     () => {
       tl.from(".project__card", {
-        xPercent: -250,
+        opacity: 0,
         stagger: 0.5,
         duration: 3,
         ease: "linear",

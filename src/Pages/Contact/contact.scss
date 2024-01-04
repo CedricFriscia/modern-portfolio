@@ -1,0 +1,40 @@
+.contact {
+  height: 30vh;
+
+  &__container {
+    width: 95%;
+    border: 1px solid black;
+    margin: auto;
+    border-radius: 14px;
+    padding: 1rem;
+    background-color: #34312d;
+
+    span {
+      font-weight: 600;
+      color: #fff;
+    }
+  }
+
+  &__linkedin {
+    padding-left: 2rem;
+
+    .link {
+      color: #fff;
+    }
+  }
+
+  &__title {
+    display: flex;
+    justify-content: center;
+    padding: 1rem 1rem;
+  }
+
+  &__text {
+    margin-left: 2rem;
+    color: #fff;
+  }
+}
+
+.link {
+  margin-left: 2rem;
+}

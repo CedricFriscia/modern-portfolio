@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import Nav from "../../Components/Nav/Nav";
 import Card from "../../Components/Card/Card";
 import Project from "../../Components/Project/Project";
+import Contact from "../Contact/Contact";
 
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
@@ -68,8 +69,8 @@ const Landing = () => {
           </Link>
         </div>
         <p className="landing__introduction fade">
-          Bonjour, je m'appelle Cédric, j'ai 25 ans et je suis un développeur
-          passionné par le développement web.
+          Bienvenue sur mon portfolio. Je m'appelle Cédric, j'ai 25 ans et je
+          suis un développeur passionné.
         </p>
 
         <section className="landing__card">
@@ -77,6 +78,9 @@ const Landing = () => {
         </section>
         <section className="landing__projects">
           <Project />
+        </section>
+        <section className="landing__Contact">
+          <Contact />
         </section>
       </main>
     </div>

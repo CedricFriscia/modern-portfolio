@@ -36,9 +36,9 @@ const Card = () => {
       <div className="card__container">
         <h2 className="card__title">Parcour</h2>
         <p className="card__presentation">
-          Formation Fullstack BAC +2 : j'ai acquis de solides connaissances en
-          JavaScript, Node.js, CSS et le framework React. Je maîtrise également
-          l'utilisation d'animations avec GSAP.
+          Formation Fullstack BAC +2 : J'ai acquis de solides compétences en
+          JavaScript, Node.js, CSS, l'utilisation d'animations avec GSAP et le
+          framework React.
         </p>
         <h2 className="card__title">Compétences</h2>
         <div className="card__skills">
